@@ -123,9 +123,9 @@ redis:
 
 # LiveKit configuration - used for video and audio rtc
 liveKit:
-  liveKitUrl: "ws://172.28.0.1:7880" # LIVEKIT_URL, LiveKit server address and port
-  key: "APIDXJxJeCL8haY" # LIVEKIT_API_KEY
-  secret: "ak1qulJ3nfXeflQHWBdmQDc4js4ueMc5OnxoORVJC2xA" # LIVEKIT_API_SECRET
+  liveKitUrl: "wss://sstech-im-hgfvms4l.livekit.cloud" # LIVEKIT_URL, LiveKit server address and port
+  key: "APITQG6LsCV8sNY" # LIVEKIT_API_KEY
+  secret: "pabajrtsu6197D2u71gPfYGrXHo5BaXzb2GUaYJxRIG" # LIVEKIT_API_SECRET
 
 # MongoDB configuration
 
