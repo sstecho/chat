@@ -15,13 +15,16 @@
 name: Publish Docker image
 
 on:
-  push:
-    branches:
-      - main
-      - release-*
-    tags:
-      - v*
-  workflow_dispatch:
+  issues:
+    types:
+      - labeled
+#  push:
+#    branches:
+#      - main
+#      - release-*
+#    tags:
+#      - v*
+#  workflow_dispatch:
 
 env:
   # Common versions
